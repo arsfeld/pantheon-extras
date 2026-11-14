@@ -325,3 +325,34 @@ Description: PaperWM-style scrolling tiling for Pantheon
  move-to-monitor is unbound. Values set in a user's own settings still win.
  Gala loads plugins at startup, so log out and back in after installing.
 
+Package: pantheon-paper
+Architecture: amd64
+Version: 0.1.0+git20261114173241.60896639
+Priority: optional
+Section: x11
+Maintainer: Alexandre Rosenfeld <alex@rosenfeld.one>
+Installed-Size: 433
+Depends: gala (>= 8.6), gala (<< 8.7), io.elementary.settings, wingpanel, dconf-gsettings-backend | gsettings-backend, libadwaita-1-0 (>= 1.4~beta), libc6 (>= 2.4), libgala0, libgee-0.8-2 (>= 0.8.3), libgles2, libglib2.0-0t64 (>= 2.79.0), libgranite6 (>= 6.0.0), libgranite7 (>= 7.8.0), libgraphene-1.0-0 (>= 1.5.4), libgtk-3-0t64 (>= 3.16.2), libgtk-4-1 (>= 4.0.0), libmutter-14-0 (>= 43.0), libswitchboard-3-0 (>= 8.0.3~r1431+pkg88~ubuntu8.1), libwingpanel3
+Filename: pool/main/pantheon-paper/pantheon-paper_0.1.0+git20261114173241.60896639_amd64.deb
+Size: 120450
+MD5sum: dff60b3d5950039bf72762e2fd56d37a
+SHA1: acc25c32e50d1f7e8bdc70e9be712126d70821ef
+SHA256: c624d3f40984696cac8fb24110c8348739e826cd9a4fef3efd132e29ce7b3fd4
+SHA512: 585d7abe7cd0877f57550ffe86a40a154fc7c20da8e4ed2749b58e06f7b8554489f9118c28f08a67780c18de8ee8fbf139b09dd2a74938100c0430a60d0b546a
+Homepage: https://github.com/arsfeld/pantheon-paper
+Description: PaperWM-style scrolling tiling for Pantheon
+ A Gala plugin: each workspace on the primary monitor becomes a horizontal
+ strip of columns that scrolls to follow focus, keeping Wingpanel, the dock
+ and the multitasking view. Super+arrows move focus, Super+Shift+arrows move
+ windows, Super+R cycles a column's width.
+ .
+ A Wingpanel indicator toggles tiling for the workspace and the focused
+ window, and a "Tiling" page in System Settings (Personal) sets the gap,
+ column widths, per-app rules and shows the shortcuts.
+ .
+ It moves some of Pantheon's default keys to make room: workspace switching
+ goes to Ctrl+Super+Left/Right (in place of half-screen tiling, which is
+ turned off with edge tiling), the multitasking view keeps Super+S only, and
+ move-to-monitor is unbound. Values set in a user's own settings still win.
+ Gala loads plugins at startup, so log out and back in after installing.
+
